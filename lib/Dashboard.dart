@@ -10,6 +10,11 @@ class MyDashboard extends StatefulWidget {
 class _MyDashboardState extends State<MyDashboard> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Tic Tac Toe"),
+        backgroundColor: Colors.amber,
+      ),
+    );
   }
 }
